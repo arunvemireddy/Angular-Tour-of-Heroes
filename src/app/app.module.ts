@@ -19,6 +19,7 @@ import { DataTableComponent } from './data-table/data-table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { SampleComponent } from './sample/sample.component';
 
 @NgModule({
   imports: [
@@ -49,7 +50,8 @@ import { MatSortModule } from '@angular/material/sort';
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    DataTableComponent
+    DataTableComponent,
+    SampleComponent
   ],
   bootstrap: [ AppComponent ]
 })
