@@ -20,6 +20,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { SampleComponent } from './sample/sample.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   imports: [
@@ -51,7 +52,8 @@ import { SampleComponent } from './sample/sample.component';
     MessagesComponent,
     HeroSearchComponent,
     DataTableComponent,
-    SampleComponent
+    SampleComponent,
+    DemoComponent
   ],
   bootstrap: [ AppComponent ]
 })
